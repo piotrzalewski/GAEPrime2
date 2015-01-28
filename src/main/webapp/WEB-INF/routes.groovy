@@ -10,3 +10,7 @@ get "/startTasks/@number?", forward: "/startTasks.groovy"
 
 
 get "/prime3/@number?", forward: "/prime3.groovy"
+get "/prime4/@number?", forward: "/prime4.groovy", cache: 10.minutes
+
+
+
