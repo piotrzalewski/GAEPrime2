@@ -9,12 +9,14 @@
     <servlet>
         <servlet-name>GroovletServlet</servlet-name>
         <servlet-class>groovyx.gaelyk.GaelykServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
     </servlet>
 
     <!-- The Gaelyk template servlet -->
     <servlet>
         <servlet-name>TemplateServlet</servlet-name>
         <servlet-class>groovyx.gaelyk.GaelykTemplateServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
     </servlet>
 
     <!-- The URL routing filter -->
