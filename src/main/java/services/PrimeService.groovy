@@ -5,7 +5,6 @@ package services
  */
 class PrimeService {
     def findPrimes(org,primes) {
-//        def primes = loadPrimes()
         BigInteger number = org as BigInteger
         BigDecimal max = Math.sqrt(number) + 1
 

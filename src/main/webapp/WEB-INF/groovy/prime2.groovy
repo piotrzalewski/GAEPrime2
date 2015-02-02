@@ -15,8 +15,6 @@ def loadPrimes() {
     logger['root'].info("from ALL " + ListOfPrimes.count() + " entities")
 
     def primes = entities.collect { it.list }.flatten()
-    logger['root'].info("Loaded " + primes.size() + " primes")
-    logger['root'].info("Loaded primes from " + primes[0] + " to " + primes[-1])
 
     primes
 }
